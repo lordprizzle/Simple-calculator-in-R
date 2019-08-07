@@ -20,11 +20,11 @@ print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 
-option=as.integer(readline(prompt=">  " ))
+option=as.integer(readline(prompt=">  3" ))
 Firstnum=as.integer(readline(prompt="Enter first number: "))
 Secondnum=as.integer(readline(prompt="Enter second number: "))
 
-value<-0;
+value<-0
 if(option == 1){
   value=addition(Firstnum,Secondnum)
 }else if(option == 2){
